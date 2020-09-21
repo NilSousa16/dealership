@@ -1,0 +1,23 @@
+#img_venda {
+  padding-top: 1em !important; 
+  max-width: 100% !important; 
+  height: auto !important;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.my-config {
+  background-color: #fff !important;
+}
