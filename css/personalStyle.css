@@ -21,3 +21,67 @@
 .my-config {
   background-color: #fff !important;
 }
+
+/* CSS Car Details */
+
+.column-left {
+  background-color: #fafafa; 
+  /* color: ;  */
+  
+  padding: 15px;
+}
+
+.column-right {
+  color:#000;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.column-left-details {
+  background-color: #fafafa; 
+  padding: 5px;
+}
+
+.column-right-details {
+  background-color: #fafafa;
+  padding: 5px; 
+}
+
+.white-cell {
+  background: #fff;
+}
+
+.title-modal {
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  padding: 1em 0em 0em 0em;
+  background-color: #fff;
+}
+
+.config-modal-title {
+  display: inline;
+}
+
+.modal-hr {
+	height: 2px;
+  width: 120px;
+  font-family: inherit;
+	background: #c29146;
+	position: relative;
+	border: 0;
+	margin: 5px 0 20px 0;
+}
+
+.btn-color {
+  background: none; 
+  color: #c29146;
+  border-color: #c29146;
+  transition: .5s;
+}
+
+.btn-color:hover {
+  background: #c29146;
+  border-color: #c29146;
+  color: #fff;
+}
