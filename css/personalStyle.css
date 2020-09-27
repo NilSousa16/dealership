@@ -22,7 +22,34 @@
   background-color: #fff !important;
 }
 
+/* Navbar */
+
+.logo-topleft {
+  position: relative;
+  top: -5px;
+  left: 2rem;
+
+  max-width: 80px; 
+  height: auto;
+  transition: all 0.8s;
+}
+
+.img-nav {
+  position: relative;
+  top: 5px;
+  left: 2rem;
+
+  height: 40px;
+}
+
+
+/* Navbar */
+
 /* CSS Car Details */
+
+.modify-pointer {
+  cursor: pointer;
+}
 
 .column-left {
   background-color: #fafafa; 

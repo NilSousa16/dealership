@@ -28,8 +28,10 @@ function main() {
         var navHeight = $(window).height() - 500;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
+            $('.logo-topleft').addClass('img-nav');
         } else {
             $('.navbar-default').removeClass('on');
+            $('.logo-topleft').removeClass('img-nav');
         }
     });
 
